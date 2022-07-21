@@ -1,0 +1,30 @@
+Energy Efficiency
+- How could make efficient?
+- Activate part of the system.
+- Why does it have to be on all the time.
+
+Explain more about last sentence in background paragraph.
+
+Restrict scope to physical spaces, not whole pervasive.
+
+So talk about continuum of devices. Provide a context.
+There's a gap in the middle. Especially in the computational context. There's a spectrum.
+
+2 ways to map it.
+- Continuum of devices.
+- Space-time continuity.
+
+- Small bits of data and small bits of code.
+
+What piece of the pervasive model.
+
+
+Draw a diagram, with different dimensions.
+- Where RFID is getting used at the moment. Where it could be used for.
+- Compare with other technologies. Where they fit in the spectrum.
+
+
+- Fault tolerance of chip.
+- Aging curve. Long term analysis.
+- Convincing argument about graceful degradation.
+- Elasticticity of it.

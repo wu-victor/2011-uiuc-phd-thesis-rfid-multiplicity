@@ -1,0 +1,465 @@
+%\documentclass[draftthesis,noragright,centerchapter,12pt]{uiucecethesis09}
+\documentclass[tocnosub,noragright,centerchapter,12pt]{uiucecethesis09}
+
+% Use draftthesis for notes and date markings on every page.  Useful when you
+%   have multiple copies floating around.
+% Use offcenter for the extra .5 inch on the left side. Needed with fullpage and fancy.
+% Use mixcasechap for compatibility with hyperref package, which does NOT like all caps default
+% Use edeposit for the adviser/committee on the title page.
+% Use tocnosub to suppress subsection and lower entries in the TOC.
+% PhD candidates use "proquest" for the proquest abstract.
+
+\makeatletter
+
+\usepackage[tight,footnotesize]{subfigure}
+\usepackage{multirow}
+\usepackage{color,soul}
+\sethlcolor{green}
+
+\usepackage{setspace}
+\usepackage{epsfig}  % for figures
+%\usepackage{graphicx}  % another package that works for figures
+%\usepackage{subfigure}  % for subfigures
+\usepackage{amsmath}  % for math spacing
+%\usepackage{amssymb}  % for math spacing
+%\usepackage{url}  % Hyphenation of URLs.
+\usepackage{lscape}  % Useful for wide tables or figures.
+\usepackage[justification=raggedright]{caption}	% makes captions ragged right - thanks to Bryce Lobdell
+
+% Uncomment the appropriate one of the following four lines:
+%\msthesis
+\phdthesis
+%\otherdoctorate[abbrev]{Title of Degree}
+%\othermasters[abbrev]{Title of Degree}
+
+\title{Beyond Identification, Toward Continuous Pervasivity: Exploiting Tag Multiplicity for Passive RFID Distributed Physical Information Systems}
+\author{Victor Kai Yuen Wu}
+\department{Electrical and Computer Engineering}
+\degreeyear{2011}
+
+% Advisor name is required for
+% - doctoral students for the ProQuest abstract
+% - master's students who do not have a master's committee
+%\advisor{Your Adviser Here}
+
+% Uncomment the \committee command for
+% - all doctoral students
+% - master's students who have a master's committee
+\committee{Professor Roy H. Campbell, Chair\\
+        Professor Nitin H. Vaidya\\
+        Assistant Professor Yih-Chun Hu\\
+        Professor P. R. Kumar}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% COPYRIGHT
+%
+%\copyrightpage
+%\blankpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TITLE
+%
+\maketitle
+
+%\raggedright
+\parindent 1em%
+
+\frontmatter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ABSTRACT
+%
+\begin{abstract}
+% Put the abstract in a file called "abs.tex" and it'll be inputted here.
+\input{Abstract}
+\end{abstract}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% DEDICATION
+%
+%\begin{dedication}
+% Whatever dedication you want.
+%To my parents, for their love and support.
+%\end{dedication}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ACKNOWLEDGMENTS
+%
+% Put acknowledgments in a file called "ack.tex" and it'll be inputted here.
+%\begin{acknowledgments}
+%\input{ack}
+%\end{acknowledgments}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TABLE OF CONTENTS
+%
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LIST OF TABLES
+%
+% The List of Tables is not strictly necessary. Omitting the List of Tables will
+% simplify the thesis check and reduce the number of corrections.
+%\listoftables
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LIST OF FIGURES
+%
+% The List of Figures is not strictly necessary. Omitting the List of Figures will
+% simplify the thesis check and reduce the number of corrections.
+%\listoffigures
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LIST OF ABBREVIATIONS
+%
+% The List of Abbreviations is not strictly necessary.
+%\chapter{LIST OF ABBREVIATIONS}
+
+%\begin{symbollist*}
+%\item[EPIC] Explicitly Parallel Instruction Computing
+%\item[GPU] Graphics Processing Unit
+%\item[VLIW] Very Long Instruction Word
+%\end{symbollist*}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LIST OF SYMBOLS
+%
+%\begin{symbollist}[0.7in]
+%\item[$\tau$] Time taken to drink one cup of coffee.
+%\end{symbollist}
+
+\mainmatter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% INSERT REAL CONTENT HERE
+%
+
+%\include{intro}	% for INTRODUCTION in "intro.tex"
+%\include{exper}
+%\include{concl}
+
+\include{Chapter_1_Introduction}
+\include{Chapter_2_Tracking_Protocols}
+\include{Chapter_3_Storage_Access_Protocols}
+\include{Chapter_4_Distributed_Passive_RFID_Computing}
+\include{Chapter_5_Conclusion}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% APPENDIX
+%
+%\appendix
+%\include{apx}
+
+\backmatter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% BIBLIOGRAPHY
+%
+%\bibliographystyle{IEEE_ECE}
+% Put references in BibTeX format in thesisrefs.bib.
+%\bibliography{thesisrefs}
+
+\begin{thebibliography}{99}
+
+%%%%%%%%%% Chapter 1: Introduction %%%%%%%%%%
+
+%%%%% Section: Thesis: Exploiting Tag Multiplicity
+
+%%%%% Section: Pervasive Computing and Continuous Pervasive Spaces
+\bibitem{1991 Weiser}
+M. Weiser, ``The Computer for the Twenty-First Century,'' \emph{Scientific American}, vol. 265, no. 3, pp. 94-104, Sep. 1991.
+
+\bibitem{2002 Roman}
+M. Rom\'{a}n, C. K. Hess, R. Cerqueira, A. Ranganathan, R. H. Campbell, and K. Nahrstedt, ``Gaia: A Middleware Infrastructure to Enable Active Spaces,'' \emph{IEEE Pervasive Computing}, vol. 1, no. 4, pp. 74-83, Oct. 2002.
+
+\bibitem{2004 Shankar}
+C. Shankar, J. Al-Muhtadi, R. H. Campbell, and M. D. Mickunas, ``A Middleware for Enabling Personal Ubiquitous Spaces,'' in \emph{Proc. ACM International Conference on Ubiquitous Computing (UbiComp)}, Nottingham, England, Sep. 2004.
+
+\bibitem{2005 Chetan}
+S. Chetan, J. Al-Muhtadi, R. H. Campbell, and M. D. Mickunas, ``Mobile Gaia: A Middleware for Ad-hoc Pervasive Computing,'' in \emph{Proc. IEEE Consumer Communications and Networking Conference (CCNC 2005)}, Las Vegas, NV, Jan. 2005, pp. 223-228.
+
+\bibitem{2004 Al-Muhtadi}
+J. Al-Muhtadi, S. Chetan, A. Ranganathan, and R. H. Campbell, ``Super Spaces: A Middleware for Large-Scale Pervasive Computing Environments,'' in \emph{Proc. IEEE International Conference on Pervasive Computing and Communications (PerCom)}, Orlando, FL, Mar. 2004.
+
+% Subsection: Device-centric View
+\bibitem{NFC}
+NFC Forum. NFC Forum Specifications. [Online]. Available: http://www.nfc-forum.org/specs
+
+\bibitem{Active RFID}
+International Standards Organization. Information technology -- Radio frequency identification for item management -- Part 7: Parameters for active air interface communications at 433 MHz. [Online]. Available: http://www.iso.org/iso/iso\_catalogue/catalogue\_tc/\\catalogue\_detail.htm?csnumber=43892
+
+%%%%% Section: Motivating Application Domains and Related Work 
+
+% Subsection: RFID in Pervasive Computing
+\bibitem{2011 Wu}
+V. K. Y. Wu and R. H. Campbell, ``Large-scale Distributed RFID Infrastructures for Pervasive Computing,'' in \emph{NSF Workshop on Pervasive Computing at Scale (PeCS)}, White Paper, Seattle, WA, Jan. 2011.
+
+\bibitem{2011 Uckelmann}
+D. Uckelmann, M. Harrison, and F. Michahelles, ``An Architectural Approach Towards the Future Internet of Things,'' in \emph{Architecting the Internet of Things.} Berlin, Germany: Springer, May 2011, pp. 1-24.
+
+\bibitem{2009 Guinard}
+D. Guinard and V. Trifa, ``Towards the Web of Things: Web Mashups for Embedded Devices," in \emph{Proc. International World Wide Web Conference}, Madrid, Spain, Apr. 2009.
+
+% Subsection: Supply Chain Management and Smart Manufacturing
+\bibitem{2011 Ko}
+J. M. Ko, C. Kwak, Y. Cho, and C. O. Kim, ``Adaptive Product Tracking in RFID-enabled Large-scale Supply Chain,'' \emph{Expert Systems with Applications}, vol. 38, no. 3, pp.1583-1590, Mar. 2011.
+
+\bibitem{2010 Liu}
+G. Liu, ``Design and Implementation of Logistics Warehouse Management System Based on RFID and WSN,'' in \emph{Proc. International Conference on Logistics Engineering and Management (ICLEM)}, Chengdu, China, Apr. 2010, pp. 2500-2506.
+
+\bibitem{2008 Inaba}
+T. Inaba, ``Value of Sparse RFID Traceability Information in Asset Tracking during Migration Period,'' in \emph{Proc. IEEE International Conference on RFID (RFID)}, Las Vegas, NV, Apr. 2008, pp. 183-190.
+
+\bibitem{2004 Li}
+Z. Li, R. Gadh, and B. S. Prabhu, ``Applications of RFID Technology and Smart Parts in Manufacturing,'' in \emph{Proc. ASME International Design Engineering Technical Conferences (DETC)}, Salt Lake City, UT, Sep.-Oct. 2004.
+
+% Subsection: Tracking and Localization
+\bibitem{2003 Cox}
+D. Cox, V. Kindratenko, and D. Pointer, ``IntelliBadge: Towards Providing Location-Aware Value-Added Services at Academic Conferences,'' in \emph{Proc. ACM International Conference on Ubiquitous Computing (UbiComp)}, Seattle, WA, Oct. 2003, pp. 264-280.
+
+\bibitem{2007 Wang}
+C. Wang, H. Wu, and N.-F. Tzeng, ``RFID-based 3-D Positioning Schemes," in \emph{Proc. IEEE International Conference on Computer Communications (INFOCOM)}, Anchorage, AK, May 2007, pp. 1235-1243. 
+
+\bibitem{2004 Ni}
+L. M. Ni, Y. Liu, Y. C. Lau, and A. P. Patil, ``LANDMARC: Indoor Location Sensing Using Active RFID,'' in \emph{Proc. IEEE International Conference on Pervasive Computing and Communications (PerCom)}, Dallas-Fort Worth, TX, Mar. 2003, pp. 407-415.
+
+\bibitem{2004 Hahnel}
+D. H$\ddot{\mbox{a}}$hnel, W. Burgard, D. Fox, K. Fishkin, and M. Philipose, ``Mapping and Localization with RFID Technology,'' in \emph{Proc. IEEE International Conference on Robotics and Automation (ICRA)}, New Orleans, LA, Apr. 2004, pp. 1050-4729.
+
+\bibitem{2006 Kleiner}
+A. Kleiner, J. Prediger, and B. Nebel, ``RFID Technology-Based Exploration and SLAM for Search and Rescue,'' in \emph{Proc. IEEE International Conference on Intelligent Robots and Systems (IROS)}, Beijing, China, Oct. 2006, pp. 4054-4059.
+
+\bibitem{2004 Bohn}
+J. Bohn and F. Mattern, ``Super-Distributed RFID Tag Infrastructures,'' in \emph{Proc. European Symposium on Ambient Intelligence (EUSAI)}, Eindhoven, The Netherlands, Nov. 2004, pp. 1-12.
+
+\bibitem{2006 Bohn}
+J. Bohn, ``Prototypical Implementation of Location-Aware Services Based on Super-Distributed RFID Tags,'' in \emph{Proc. International Conference on Architecture of Computing Systems (ARCS)}, Frankfurt/Main, Germany, Mar. 2006, pp. 69-83.
+
+\bibitem{2008 Burnell}
+J. Burnell. (2008, Jan.). Texas Turns to RFID for Emergency Evacuation System. \emph{RFID Update.} [Online]. Available:  http://www.rfidupdate.com/articles/index.php?id=1513
+
+\bibitem{2007 Swedberg}
+C. Swedberg. (2007, Jan.) Search Teams Put RFID to the Rescue to Help Find the Missing. \emph{RFID Journal.} [Online]. Available:  http://www.rﬁdjournal.com/article/articleview/3362/1/1
+
+\bibitem{2005 Huang}
+J.-H. Huang, S. Amjab, and S. Mishra, ``CenWits: A Sensor-Based Loosely Coupled Search and Rescue System Using Witnesses," in \emph{Proc. ACM Conference on Embedded Networked Sensor Systems (SenSys)}, San Diego, CA, Nov. 2005, pp. 180-191.
+
+\bibitem{2007 Zhuang}
+P. Zhuang, Q. Wang, Y. Shang, H. Shi, and B. Hua, ``Wireless Sensor Network Aided Search and Rescue in Trails," in \emph{Proc. ACM International Conference on Scalable Information Systems (INFOSCALE)}, Suzhou, China, Jun. 2007.
+
+\bibitem{2006 Guerrieri}
+J. R. Guerrieri, M. H. Francis, P. F. Wilson, T. Kos, L. E. Miller, N. P. Bryner, D. W. Stroup, and L. Klein-Berndt, ``RFID-Assisted Indoor Localization and Communication for First Responders," in \emph{Proc. European Conference on Antennas and Propagation (EuCAP)}, Nice, France, Nov. 2006, pp. 1-6.
+
+% Subsection: Storage and Collaboration
+\bibitem{2008 Shibayama}
+A. Shibayama, Y. Hisada, M. Mirakami, M. Endo, S. Zama, O. Takizawa, M. Hosokawa, and T. Ichii, ``A Study on the Disaster Information Collection Support System, Incorporating Information and Communication Technology," in \emph{Proc. World Conference on Earthquake Engineering}, Beijing China, Oct. 2008.
+
+%%%%% Section: Supporting and Related Technologies
+
+% Subsection: Passive UHF RFID Technology and Supply Chain Management
+\bibitem{2008 Dobkin}
+D. M. Dobkin, \emph{The RF in RFID}. Burlington, MA: Elsevier, 2008.
+
+\bibitem{EPCglobal}
+GS1, ``EPCglobal,'' Sep. 25, 2008. [Online]. Available: http://www.gs1.org/epcglobal
+
+\bibitem{Walmart}
+Walmart Corporate, ``Electronic Product Codes,'' Mar. 3, 2009. [Online]. Available: http://walmartstores.com/270.aspx
+
+% Subsection: Passive RFID Storage
+\bibitem{Alien}
+Alien Technology, ``Alien Higgs-3,'' May 11, 2009. [Online]. Available: http://www.alientechnology.com/tags/rfid\_ic.php
+
+\bibitem{Impinj}
+Impinj, ``Monza 4 RFID Tag Chips,'' May 11, 2009. [Online] Available: http://www.impinj.com/products/monza4tagchips.aspx
+
+\bibitem{Hitachi}
+Hitachi, ``Hibiki RFID Tag,'' May 11, 2009. [Online]. Available: http://www.hitachi-eu.com/mu/Products/Hibiki.html
+
+\bibitem{Tego}
+Tego, ``TegoChip,'' May 11, 2009. [Online]. \\Available: http://www.tegoinc.com/products/products\_tegochip.php.
+
+% Subsection: Tag Singulation
+\bibitem{2000 Law}
+C. Law, K. Lee, and K.-Y. Siu, ``Efficient Memoryless Protocol for Tag Identification," in \emph{Proc. ACM International Workshop on Discrete Algorithms and Methods for Mobile Computing and Communications}, Boston, MA, Aug. 2000.
+
+\bibitem{2006 Chiang}
+K. W. Chiang, C. Hua, and T.-S. P. Yum, ``Prefix-Randomized Query Tree Protocol for RFID Systems," in \emph{Proc. IEEE International Conference on Communications (ICC)}, Istanbul, Turkey, Jun. 2006, pp. 1653-1657.
+
+\bibitem{2006 Myung}
+J. Myung, W. Lee, and T. Shih, ``An Adaptive Memoryless Protocol for RFID Tag Collision Arbitration,'' \emph{IEEE Transactions on Multimedia}, vol. 8, no. 5, pp. 1096-1101, Oct. 2006.
+ 
+\bibitem{2006 Bhandari}
+N. Bhandari, A. Sahoo, and S. Iyer, ``Intelligent Query Tree (IQT) Protocol to Improve RFID Tag Read Efficiency," in \emph{Proc. International Conference on Information Technology (ICIT)}, Bhubaneswar, India, Dec. 2006, pp. 46-51.
+
+\bibitem{2008 Hsu}
+C.-H. Hsu, C.-H. Yu, Y.-P. Huang, and K.-J. Ha, ``An Enhanced Query Tree (EQT) Protocol for Memoryless Tag Anti-Collision in RFID Systems,'' in  \emph{Proc. International Conference on Future Generation Communication and Networking (FGCN)}, Sanya, China, Dec. 2008, pp. 427-432.
+
+\bibitem{2002 Vogt}
+H. Vogt, ``Multiple Object Identification with Passive RFID Tags,'' in \emph{Proc. IEEE International Conference on Systems, Man and Cybernetics (SMC)}, Hammamet, Tunisia, Oct. 2002.
+ 
+\bibitem{2005 Zhen}
+B. Zhen, M. Kobayshi, and M. Shimizu, ``Framed ALOHA for Multiple RFID Objects Identification," \emph{IEICE Transactions on Communications}, vol. 88-B, no. 3, pp. 991-999, 2005.
+
+\bibitem{2006 Huang}
+X. Huang, ``An Improved ALOHA Algorithm for RFID Tag Identification," in \emph{Proc. KES International Conference on Knowledge-Based and Intelligent Information and Engineering Systems}, Bournemouth, United Kingdom, Oct. 2006, pp. 1157-1162.
+
+% Subsection: Mobile Interrogation
+\bibitem{Motorola}
+Motorola Solutions, ``Mobile Computers,'' Apr. 23, 2010. [Online]. Available: http://www.motorola.com/Business/US-EN/\\Business+Product+and+Services/Mobile+Computers
+
+\bibitem{2009 Savolainen}
+J. T. Savolainen, H. Hirvola, and S. Iraji, ``EPC UHF RFID Reader: Mobile Phone Integration and Services," in \emph{Proc. IEEE Consumer Communications and Networking Conference (CCNC)}, Las Vegas, NV, Jan. 2009, pp. 1-5.
+
+\bibitem{2005 Pohjanheimo}
+L. Pohjanheimo, H. Ker$\ddot{\mbox{a}}$nen, and H. Ailisto, ``Implementing TouchMe Paradigm with a Mobile Phone," in \emph{Proc. ACM International Conference on Smart Objects and Ambient Intelligence}, Grenoble, France, Oct. 2005, pp. 87-92.
+
+\bibitem{2008 Loffler}
+A. L$\ddot{\mbox{o}}$ffler, U. Wissendheit, H. Gerh$\ddot{\mbox{a}}$user, and D. Kuznetsova, ``GIDS - A System for Combining RFID-Based Site Information and Web-based Data for Virtually Displaying the Location on Handheld Devices," in \emph{Proc. IEEE International Conference on RFID (RFID)}, Las Vegas, NV, Apr. 2008, pp. 312-319. 
+
+% Subsection: Networking
+\bibitem{2005 Akyildiz}
+%I. F. Akyildiz, M. C. Vuran, $\ddot{\mbox{O}}$. B. Akan, and W. Su, ``Wireless Sensor Networks: A Survey Revisited," \emph{Computer Networks Journal}, 2005.
+I. F. Akyildiz, W. Su, Y. Sankarasubramaniam, and E. Cayirci, ``Wireless Sensor Networks: A Survey,'' \emph{Computer Networks Journal}, vol. 38, no. 4, pp. 393-422, Mar. 2002.
+
+\bibitem{2008 Yick}
+J. Yick, B. Mukherjee, and D. Ghosal, ``Wireless Sensor Network Survey,'' \emph{Computer Networks Journal}, vol. 52, no. 12, pp. 2292-2330, 2008.
+
+\bibitem{2003 Fall}
+K. Fall, ``A Delay Tolerant Network Architecture for Challenged Internets,'' in \emph{Proc. ACM Conference on Applications, Technologies, Architectures, and Protocols for Computer Communications (SIGCOMM)}, Karlsruhe, Germany, Feb. 2003, pp. 27-34.
+
+\bibitem{2004 Fall}
+S. Jain, K. Fall, and R. Patra, ``Routing in a Delay Tolerant Network,'' in \emph{Proc. ACM Conference on Applications, Technologies, Architectures, and Protocols for Computer Communications (SIGCOMM)}, Portland, OR, Aug.-Sep. 2004.
+
+\bibitem{2006 Zhang}
+Z. Zhang, ``Routing in Intermittently Connected Mobile Ad Hoc Networks and Delay Tolerant Networks: Overview and Challenges,'' in \emph{IEEE Communications Surveys \& Tutorials}, vol. 8, no. 1, pp. 24-37, 2006.
+
+\bibitem{2007 Jones}
+E. P. C. Jones, L. Li, J. K. Schmidtke, and P. A. S. Ward, ``Practical Routing in Delay-Tolerant Networks,'' in \emph{IEEE Transactions on Mobile Computing}, vol. 6, no. 8, pp. 943-959, Aug. 2007.
+
+\bibitem{2007 Daly}
+E. M. Daly and M. Haahr, ``Social Network Analysis for Routing in Disconnected Delay-Tolerant MANETs,'' in \emph{Proc. ACM International Symposium on Mobile Ad Hoc Networking and Computing (MobiHoc)}, Montreal, Canada, Sep. 2007, pp. 32-40.
+
+\bibitem{2011 Fabbri}
+F. Fabbri and R. Verdone, ``A Sociability-Based Routing Scheme for Delay-Tolerant Networks,'' in \emph{EURASIP Journal on Wireless Communications and Networking - Special Issue on Opportunistic and Delay Tolerant Networks}, vol. 2011, Jan. 2011.
+
+\bibitem{2003 Shah}
+R. C. Shah, S. Roy, S. Jain, and W. Brunette, ``Data MULEs: Modeling a Three-Tier Architecture for Sparse Sensor Networks,'' in \emph{Proc. IEEE International Workshop on Sensor Network Protocols and Applications (SNPA)}, May 2003, pp. 30-41.
+
+\bibitem{2005 Jea}
+D. Jea, A. Somasundara, and M. Srivastava, ``Multiple Controlled Mobile Elements (Data Mules) for Data Collection in Sensor Networks,'' in \emph{Proc. IEEE International Conference on Distributed Computing in Sensor Systems (DCOSS)}, Marina del Rey, CA, Jun.-Jul. 2005, pp. 244-257.
+
+\bibitem{2003 Zhao}
+W. Zhao and M. H. Ammar, ``Message Ferrying: Proactive Routing in Highly-Partitioned Wireless Ad Hoc Networks,'' in \emph{Proc. IEEE Workshop on Future Trends of Distributed Computing Systems (FTDCS)}, San Juan, Puerto Rico, May 2003, pp. 308-314.
+ 
+\bibitem{2004 Zhao}
+W. Zhao, M. Ammar, and E. Zegura, ``A Message Ferrying Approach for Data Delivery in Sparse Mobile Ad Hoc Networks,'' in \emph{Proc. ACM International Symposium on Mobile Ad Hoc Networking and Computing (MobiHoc)}, Tokyo, Japan, May 2004, pp. 187-198.
+
+\bibitem{2005 Zhao}
+W. Zhao, M. Ammar, and E. Zegura, ``Controlling the Mobility of Multiple Data Transport Ferries in a Delay-Tolerant Network,'' in \emph{Proc. IEEE International Conference on Computer Communications (INFOCOM)}, Miami, FL, Mar. 2005, pp. 1407-1418.
+
+\bibitem{2009 Yang}
+Z. Yang and H. Wu, ``Featherlight Information Network with Delay-Endurable RFID Support (FINDERS)," in \emph{Proc. IEEE Conference on Sensor, Mesh, and Ad Hoc Communications and Networks (SECON)}, Rome, Italy, Jun. 2009, pp. 1-9. 
+
+
+%%%%%%%%%% Chapter 2: Tracking Protocols %%%%%%%%%%
+
+%%%%% Section: Space-time Correlations
+
+% Subsection: Experimental Evaluation
+\bibitem{Alien Reader}
+Alien Technology, ``ALR-9650 Single-Antenna RFID Solution,'' Jul. 9, 2009. [Online]. Available: http://www.alientechnology.com/readers/alr9650.php
+
+%%%%% Section: Forest Search and Rescue
+
+% Subsection: Related Work
+\bibitem{2003 Hoyt}
+S. Hoyt, D. St. John, D. Wilson, and L. Bushnell, ``A Tree Tour with Radio Frequency Identification (RFID) and a Personal Digital Assistant (PDA)," in \emph{Proc. IEEE Annual Conference of the Industrial Electronics Society (IECON)}, Roanoke, VA, Nov. 2003, pp. 2035-2040.
+
+\bibitem{Discover RFID}
+Discover RFID, ``In the Forest,'' Nov. 19, 2009. [Online]. Available: http://www.discoverrfid.org/what-is-possible/work-better/in-the-forest.html
+
+% Subsection: System Simulation
+\bibitem{Yosemite}
+National Park Service, ``Day Hikes in Yosemite Valley,'' Nov. 19, 2009. [Online]. Available: http://www.nps.gov/yose/planyourvisit/valleyhikes.htm
+
+\bibitem{2003 Finkenzeller}
+K. Finkenzeller, \emph{RFID Handbook: Fundamentals and Applications in Contactless Smart Cards and Identification.} West Sussex, England: Wiley, May 2003.
+
+% Chapter 3: Storage Access Protocols
+
+%%%%% Section: Efficient Access Protocols
+
+% Subsection: Static Case - System Model
+\bibitem{2002 Engels}
+D. W. Engels and S. E. Sarma, ``The Reader Collision Problem,"  in \emph{Proc. IEEE International Conference on Systems, Man, and Cybernetics (SMC)}, Hammamet, Tunisia, Oct. 2002.
+
+% Subsection: Dynamic Case - System Model
+\bibitem{1994 Wicker}
+S. B. Wicker, \emph{Error Control Systems for Digital Communication and Storage.} Upper Saddle River, NJ: Prentice Hall, 1994.
+
+
+%%%%% Section: Random Access Protocols
+\bibitem{2007 Langheinrich}
+M. Langheinrich and R. Marti, ``Practical Minimalist Cryptography for RFID Privacy,'' \emph{IEEE Systems Journal}, vol. 1, no. 2, pp. 115-128, Dec. 2007.
+
+% Subsection: Motivating Application Domains
+
+% Subsubsection: Communications
+\bibitem{2010 Aziza}
+H. Aziza, ``NFC Technology in Mobile Phone Next-Generation Services,'' in \emph{Proc. International Workshop on Near Field Communication}, Monaco, Apr. 2010, pp. 21-26.
+
+% Subsection: Strategies for Privacy and Redundancy
+
+% Subsubsection: Multi-space Distributed Systems
+\bibitem{2010 Shin}
+J. Shin and D. Han, ``Multi-Classifier for WLAN Fingerprint-Based Positioning System,'' in \emph{Proc. World Congress on Engineering (WCE)}, London, United Kingdom, Jun.-Jul. 2010, pp. 768-773
+
+% Subsection: Experimental Evaluation
+
+% Subsubsection: Write the File
+\bibitem{2005 Fischer}
+J. Fisher, ``An In-Depth User’s Guide to Selecting and Deploying Gen2 Tags, Readers, and Infrastructure," Reva Systems, White Paper, 2005.
+
+% Chapter 4: Distributed Passive RFID Computing
+
+%%%%% Section: System Model
+
+\bibitem{2008 Rhee}
+I. Rhee, M. Shin, S. Hong, K. Lee, and S. Chong, ``On the Levy-Walk Nature of Human Mobility,'' in \emph{Proc. IEEE International Conference on Computer Communications (INFOCOM)}, Phoenix, AZ, Apr. 2008, pp. 924-932.
+
+%%%%% Section: Simulations
+
+% Subsection: Time Utilization
+
+\bibitem{WolframAlpha}
+WolframAlpha. [Online]. Available: http://www.wolframalpha.com
+
+
+% Chapter 5: Conclusion
+
+\end{thebibliography}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% AUTHOR'S BIOGRAPHY
+% For doctoral students
+% Optional, per Grad College, as of 10/2009, but still preferred by most dissertators
+% You may activate either of the following 2 commands: 
+% \aubio to include bio in this file, or \include{aubio} for separate bio file
+% do NOT activate both!
+
+%\aubio
+
+%\include{aubio}	% Author's Biography info in "aubio.tex"
+
+\end{document}
+\endinput

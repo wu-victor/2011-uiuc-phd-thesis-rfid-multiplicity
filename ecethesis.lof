@@ -1,0 +1,125 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Space-time spectrum of key ingredients in pervasive devices.\relax }}{17}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Space-time granularity spectrum of key ingredients in systems for pervasive spaces.\relax }}{18}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Hiker digital paths stored in RFID tags.\relax }}{45}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The field where hikers can move. $L = 1$. The original hiker path is shown by the arrow.\relax }}{45}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Probability density function of where later hikers intersect $\mathcal {L}$.\relax }}{46}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Yosemite Valley hiking trail.\relax }}{46}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Yosemite Valley hiking trail sections.\relax }}{47}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Fraction of remaining tags with (ID, SN) pairs of the first hiker. $\rho = 1$ tag/m$^2$.\relax }}{47}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Fraction of remaining tags with (ID, SN) pairs of the first hiker. $\rho = 5$ tags/m$^2$.\relax }}{48}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Fraction of remaining tags with (ID, SN) pairs of the first hiker. $\rho = 10$ tags/m$^2$.\relax }}{48}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Search metric. $\rho = 1$ tag/m$^2$.\relax }}{49}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Search metric. $\rho = 5$ tags/m$^2$.\relax }}{49}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Search metric. $\rho = 10$ tags/m$^2$.\relax }}{50}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces RFID tag field.\relax }}{50}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces RFID grid with different user trajectories.\relax }}{51}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {User trajectory 1.}}}{51}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {User trajectory 2.}}}{51}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {User trajectory 3.}}}{51}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Average weight-normalized arrow error.\relax }}{51}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {User trajectory 1.}}}{51}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {User trajectory 2.}}}{51}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {User trajectory 3.}}}{51}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Average weight-normalized arrow error change.\relax }}{52}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {User trajectory 1.}}}{52}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {User trajectory 2.}}}{52}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {User trajectory 3.}}}{52}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Arrow field with $\mathbf {d}^{\left (new\right )}$ from one experiment run. Antenna power = $P_2$.\relax }}{52}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {User trajectory 1.}}}{52}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {User trajectory 2.}}}{52}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {User trajectory 3.}}}{52}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Arrow field with $\mathbf {d}^{\left (cen\right )}$ from one experiment run. Antenna power = $P_1$.\relax }}{53}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {User trajectory 1.}}}{53}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {User trajectory 2.}}}{53}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {User trajectory 3.}}}{53}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Arrow field with $\mathbf {d}^{\left (cen\right )}$ from one experiment run. Antenna power = $P_2$.\relax }}{53}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {User trajectory 1.}}}{53}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {User trajectory 2.}}}{53}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {User trajectory 3.}}}{53}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Arrow field with $\mathbf {d}^{\left (cen\right )}$ from one experiment run. Antenna power = $P_3$.\relax }}{54}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {User trajectory 1.}}}{54}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {User trajectory 2.}}}{54}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {User trajectory 3.}}}{54}
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Arrow field with $\mathbf {d}^{\left (sar,new\right )}$ from one experiment run. Antenna power = $P_3$.\relax }}{54}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {User trajectory 1.}}}{54}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {User trajectory 2.}}}{54}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {User trajectory 3.}}}{54}
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Arrow field with $\mathbf {d}^{\left (sar,cen\right )}$ from one experiment run. Antenna power = $P_3$.\relax }}{55}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {User trajectory 1.}}}{55}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {User trajectory 2.}}}{55}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {User trajectory 3.}}}{55}
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Average cumulative searched area.\relax }}{55}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {User trajectory 1.}}}{55}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {User trajectory 2.}}}{55}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {User trajectory 3.}}}{55}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Query tree singulation for a $4$ bit tag ID space.\relax }}{92}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Number of simultaneous bits transmitted for the static case. $m=1$.\relax }}{92}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Number of simultaneous bits transmitted for the static case. Aloha-based algorithms.\relax }}{93}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Number of simultaneous bits transmitted for the static case. Query tree-based algorithms.\relax }}{93}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Number of simultaneous bits transmitted for the static case. $n = 1000$ tags and increasing $m$.\relax }}{94}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Average measured message lifetime per byte. $p = \frac {1}{2}$ and $\lambda _I = 0.2$ arrivals per second.\relax }}{94}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Average measured message lifetime per byte. $p = \frac {1}{2}$ and $\lambda _I = 0.6$ arrivals per second.\relax }}{95}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Average message access time per byte. $p= \frac {1}{2}$, $\lambda _I = 0.2$ arrivals per second, and $k = 16$ bytes.\relax }}{95}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Average message access time per byte. $p= \frac {1}{2}$, $\lambda _I = 0.2$ arrivals per second, and $k = 20$ bytes.\relax }}{96}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Average message access time per byte. $p= \frac {1}{2}$, $\lambda _I = 0.2$ arrivals per second, and $k = 24$ bytes.\relax }}{96}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Average message access time per byte. $p= \frac {1}{2}$, $\lambda _I = 0.2$ arrivals per second, and $k = 28$ bytes.\relax }}{97}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces RFID tag board.\relax }}{98}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Experiment setup.\relax }}{99}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Tag scan frequency. $F \in \{12, 20, 28\}$, $S \in \{4, 8, 16\}$, and $Q = 6$.\relax }}{100}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Tag scan frequency. $F \in \{12, 20, 28\}$, $S \in \{4, 8, 16\}$, and $Q = 10$.\relax }}{100}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Tag scan frequency. $F \in \{12, 20, 28\}$, $S \in \{4, 8, 16\}$, and $Q = 14$.\relax }}{101}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces File write time period per byte. $F \in \{12, 20, 28\}$, $S \in \{4, 8, 16\}$, and $Q = 6$.\relax }}{101}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces File write time period per byte. $F \in \{12, 20, 28\}$, $S \in \{4, 8, 16\}$, and $Q = 10$.\relax }}{102}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces File write time period per byte. $F \in \{12, 20, 28\}$, $S \in \{4, 8, 16\}$, and $Q = 14$.\relax }}{102}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces System utilization. $F \in \{12, 20, 28\}$, $S \in \{4, 8, 16\}$, and $Q = 6$.\relax }}{103}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces System utilization. $F \in \{12, 20, 28\}$, $S \in \{4, 8, 16\}$, and $Q = 10$.\relax }}{103}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces System utilization. $F \in \{12, 20, 28\}$, $S \in \{4, 8, 16\}$, and $Q = 14$.\relax }}{104}
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Recovery time period per byte. $F \in \{12, 20, 28\}$, $S \in \{4, 8, 16\}$, and $Q = 6$.\relax }}{104}
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Recovery time period per byte. $F \in \{12, 20, 28\}$, $S \in \{4, 8, 16\}$, and $Q = 10$.\relax }}{105}
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Recovery time period per byte. $F \in \{12, 20, 28\}$, $S \in \{4, 8, 16\}$, and $Q = 14$.\relax }}{105}
+\contentsline {figure}{\numberline {3.26}{\ignorespaces File lifetime information progression. File number $= 20$, $F \in \{12, 20, 28\}$, $S \in \{4, 8, 16\}$, and $Q = 6$.\relax }}{106}
+\contentsline {figure}{\numberline {3.27}{\ignorespaces File lifetime information progression. File number $= 20$, $F \in \{12, 20, 28\}$, $S \in \{4, 8, 16\}$, and $Q = 10$.\relax }}{106}
+\contentsline {figure}{\numberline {3.28}{\ignorespaces File lifetime information progression. File number $= 20$, $F \in \{12, 20, 28\}$, $S \in \{4, 8, 16\}$, and $Q = 14$.\relax }}{107}
+\contentsline {figure}{\numberline {3.29}{\ignorespaces File lifetime information progression. File number $= 80$, $F \in \{12, 20, 28\}$, $S \in \{4, 8, 16\}$, and $Q = 6$.\relax }}{107}
+\contentsline {figure}{\numberline {3.30}{\ignorespaces File lifetime information progression. File number $= 80$, $F \in \{12, 20, 28\}$, $S \in \{4, 8, 16\}$, and $Q = 10$.\relax }}{108}
+\contentsline {figure}{\numberline {3.31}{\ignorespaces File lifetime information progression. File number $= 80$, $F \in \{12, 20, 28\}$, $S \in \{4, 8, 16\}$, and $Q = 14$.\relax }}{108}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces $\alpha _S$ behavior of interrogator steps.\relax }}{126}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces PDF of L\'{e}vy and truncated L\'{e}vy distributions.\relax }}{126}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Interrogator trajectories. Number of interrogators $=5$, number of interrogator steps $=4$, and $\alpha _S = 10$.\relax }}{127}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Interrogator trajectories. Number of interrogators $=5$, number of interrogator steps $=4$, and $\alpha _S = 15$.\relax }}{127}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Interrogator trajectories. Number of interrogators $=5$, number of interrogator steps $=4$, and $\alpha _S = 20$.\relax }}{128}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces System connectivity. Number of tags = 100 and $R_I \in \{0.05, 0.15, 0.25\} \times s^{(max)}$.\relax }}{128}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces System connectivity. Number of tags = 500 and $R_I \in \{0.05, 0.15, 0.25\} \times s^{(max)}$.\relax }}{129}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces System connectivity. Number of tags = 100 and $R_I = 0.15 \times s^{(max)}$.\relax }}{129}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces System connectivity. Number of tags = 500 and $R_I = 0.15 \times s^{(max)}$.\relax }}{130}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces First time reaching system connectivity. Number of tags = 100 and $R_I \in \{0.05, 0.15, 0.25\} \times s^{(max)}$.\relax }}{130}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces First time reaching system connectivity. Number of tags = 500 and $R_I \in \{0.05, 0.15, 0.25\} \times s^{(max)}$.\relax }}{131}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces System connected links minimum distances average. Number of tags = 100 and $R_I \in \{0.05, 0.15, 0.25\} \times s^{(max)}$.\relax }}{131}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces System connected links minimum distances average. Number of tags = 500 and $R_I \in \{0.05, 0.15, 0.25\} \times s^{(max)}$.\relax }}{132}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces System connected links minimum distances average. Number of tags = 100 and $R_I = 0.15 \times s^{(max)}$.\relax }}{132}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces System connected links minimum distances average. Number of tags = 500 and $R_I = 0.15 \times s^{(max)}$.\relax }}{133}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces System connected links maximum distances average. Number of tags = 100 and $R_I \in \{0.05, 0.15, 0.25\} \times s^{(max)}$.\relax }}{133}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces System connected links maximum distances average. Number of tags = 500 and $R_I \in \{0.05, 0.15, 0.25\} \times s^{(max)}$.\relax }}{134}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces System connected links maximum distances average. Number of tags = 100 and $R_I = 0.15 \times s^{(max)}$.\relax }}{134}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces System connected links maximum distances average. Number of tags = 500 and $R_I = 0.15 \times s^{(max)}$.\relax }}{135}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces System connected links displacements average. Number of tags = 100 and $R_I \in \{0.05, 0.15, 0.25\} \times s^{(max)}$.\relax }}{135}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces System connected links displacements average. Number of tags = 500 and $R_I \in \{0.05, 0.15, 0.25\} \times s^{(max)}$.\relax }}{136}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces System connected links displacements average. Number of tags = 100 and $R_I = 0.15 \times s^{(max)}$.\relax }}{136}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces System connected links displacements average. Number of tags = 500 and $R_I = 0.15 \times s^{(max)}$.\relax }}{137}
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Single interrogator connectivity. Number of tags = 100 and $R_I \in \{0.05, 0.15, 0.25\} \times s^{(max)}$.\relax }}{137}
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Single interrogator connectivity. Number of tags = 500 and $R_I \in \{0.05, 0.15, 0.25\} \times s^{(max)}$.\relax }}{138}
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Single interrogator summation of connected links minimum distances. Number of tags = 100 and $R_I \in \{0.05, 0.15, 0.25\} \times s^{(max)}$.\relax }}{138}
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Single interrogator summation of connected links minimum distances. Number of tags = 500 and $R_I \in \{0.05, 0.15, 0.25\} \times s^{(max)}$.\relax }}{139}
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Single interrogator summation of connected links maximum distances. Number of tags = 100 and $R_I \in \{0.05, 0.15, 0.25\} \times s^{(max)}$.\relax }}{139}
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Single interrogator summation of connected links maximum distances. Number of tags = 500 and $R_I \in \{0.05, 0.15, 0.25\} \times s^{(max)}$.\relax }}{140}
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Single interrogator summation of connected links displacements. Number of tags = 100 and $R_I \in \{0.05, 0.15, 0.25\} \times s^{(max)}$.\relax }}{140}
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Single interrogator summation of connected links displacements. Number of tags = 500 and $R_I \in \{0.05, 0.15, 0.25\} \times s^{(max)}$.\relax }}{141}
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Expected time utilization. $\alpha _P \in \{5, 10, 15, 20, 25, 30\}$.\relax }}{141}
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Maximum expected time utilization.\relax }}{142}
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Maximizing required computation time.\relax }}{142}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

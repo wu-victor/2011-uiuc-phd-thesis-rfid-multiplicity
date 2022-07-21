@@ -1,0 +1,109 @@
+\contentsline {chapter}{CHAPTER\ 1\hskip 1em\relax \MakeUppercase {INTRODUCTION}}{1}
+\contentsline {section}{\numberline {1.1}Thesis: Exploiting Tag Multiplicity}{1}
+\contentsline {section}{\numberline {1.2}Pervasive Computing and Continuous Pervasive Spaces}{1}
+\contentsline {subsection}{\numberline {1.2.1}Device-Centric View}{2}
+\contentsline {subsection}{\numberline {1.2.2}Environment-Centric View}{3}
+\contentsline {subsection}{\numberline {1.2.3}Characteristics of Continuous Pervasive Spaces}{4}
+\contentsline {subsection}{\numberline {1.2.4}Competing Systems and Technologies: Not Sufficiently Continuous}{5}
+\contentsline {subsection}{\numberline {1.2.5}Passive Tag-Based Distributed Physical Information Systems: Unique Enabler of Continuous Pervasive Spaces}{6}
+\contentsline {section}{\numberline {1.3}Thesis Reiterated: Exploiting Tag Multiplicity}{7}
+\contentsline {section}{\numberline {1.4}Motivating Application Domains and Related Work}{7}
+\contentsline {subsection}{\numberline {1.4.1}RFID in Pervasive Computing}{8}
+\contentsline {subsection}{\numberline {1.4.2}Supply Chain Management and Smart Manufacturing}{8}
+\contentsline {subsection}{\numberline {1.4.3}Tracking and Localization}{9}
+\contentsline {subsection}{\numberline {1.4.4}Storage and Collaboration}{11}
+\contentsline {section}{\numberline {1.5}Supporting and Related Technologies}{11}
+\contentsline {subsection}{\numberline {1.5.1}Passive UHF RFID Technology and Supply Chain Management}{12}
+\contentsline {subsection}{\numberline {1.5.2}Passive RFID Storage}{13}
+\contentsline {subsection}{\numberline {1.5.3}Tag Singulation}{13}
+\contentsline {subsection}{\numberline {1.5.4}Mobile Interrogation}{14}
+\contentsline {subsection}{\numberline {1.5.5}Networking}{14}
+\contentsline {section}{\numberline {1.6}Work Outline}{16}
+\contentsline {section}{\numberline {1.7}Figures}{16}
+\contentsline {chapter}{CHAPTER\ 2\hskip 1em\relax \MakeUppercase {TRACKING PROTOCOLS}}{19}
+\contentsline {section}{\numberline {2.1}Space-Time Correlations}{19}
+\contentsline {subsection}{\numberline {2.1.1}System Model}{20}
+\contentsline {subsection}{\numberline {2.1.2}Correlation Functions}{20}
+\contentsline {subsection}{\numberline {2.1.3}Experimental Evaluation}{23}
+\contentsline {subsubsection}{\textbf {Experimental Setup}}{23}
+\contentsline {subsubsection}{\textbf {Experimental Results}}{23}
+\contentsline {section}{\numberline {2.2}Forest Search and Rescue}{28}
+\contentsline {subsection}{\numberline {2.2.1}Related Work}{29}
+\contentsline {subsection}{\numberline {2.2.2}Replacement Algorithms}{30}
+\contentsline {subsubsection}{\textbf {Oldest Selection (OS)}}{31}
+\contentsline {subsubsection}{\textbf {Random Selection (RS)}}{31}
+\contentsline {subsubsection}{\textbf {Highest Frequency Selection (HFS)}}{31}
+\contentsline {subsubsection}{\textbf {Lowest Delete Frequency Selection (LDFS)}}{31}
+\contentsline {subsubsection}{\textbf {Example}}{32}
+\contentsline {subsection}{\numberline {2.2.3}System Analysis}{32}
+\contentsline {subsection}{\numberline {2.2.4}System Simulation}{34}
+\contentsline {subsubsection}{\textbf {Simulation Results}}{35}
+\contentsline {subsection}{\numberline {2.2.5}Proposed System Implementation Issues}{37}
+\contentsline {section}{\numberline {2.3}Continuous Pervasivity}{38}
+\contentsline {subsection}{\numberline {2.3.1}Quality of Tracking Services}{38}
+\contentsline {subsection}{\numberline {2.3.2}Distributedness}{39}
+\contentsline {section}{\numberline {2.4}Concluding Remarks}{42}
+\contentsline {section}{\numberline {2.5}Figures and Tables}{43}
+\contentsline {chapter}{CHAPTER\ 3\hskip 1em\relax \MakeUppercase {STORAGE ACCESS PROTOCOLS}}{56}
+\contentsline {section}{\numberline {3.1}Efficient Access Protocols}{56}
+\contentsline {subsection}{\numberline {3.1.1}Static Case - System Model}{57}
+\contentsline {subsection}{\numberline {3.1.2}Static Case - Storage Access Algorithms}{58}
+\contentsline {subsubsection}{\textbf {Aloha-Based Algorithms}}{58}
+\contentsline {subsubsection}{\textbf {Query Tree-Based Algorithms}}{61}
+\contentsline {subsection}{\numberline {3.1.3}Static Case - Simulations}{63}
+\contentsline {subsection}{\numberline {3.1.4}Dynamic Case - System Model}{65}
+\contentsline {subsection}{\numberline {3.1.5}Dynamic Case - Storage Access Algorithms}{67}
+\contentsline {subsubsection}{\textbf {Aloha-Based Algorithms}}{67}
+\contentsline {subsubsection}{\textbf {Query Tree-Based Algorithms}}{67}
+\contentsline {subsection}{\numberline {3.1.6}Dynamic Case - Simulations}{68}
+\contentsline {section}{\numberline {3.2}Random Access Protocols}{70}
+\contentsline {subsection}{\numberline {3.2.1}Motivating Application Domains}{71}
+\contentsline {subsubsection}{\textbf {Storage}}{71}
+\contentsline {subsubsection}{\textbf {Communications}}{71}
+\contentsline {subsection}{\numberline {3.2.2}Strategies for Privacy and Redundancy}{73}
+\contentsline {subsubsection}{\textbf {Trivial Encryption and Redundancy}}{73}
+\contentsline {subsubsection}{\textbf {Adding Chaff}}{73}
+\contentsline {subsubsection}{\textbf {Redundancy Encoding}}{74}
+\contentsline {subsubsection}{\textbf {Multi-space Distributed Systems}}{74}
+\contentsline {subsection}{\numberline {3.2.3}System Description}{77}
+\contentsline {subsubsection}{\textbf {File Encryption and Encoding}}{77}
+\contentsline {subsubsection}{\textbf {File Name Encryption and Chunk Identifiers}}{77}
+\contentsline {subsubsection}{\textbf {File Writing}}{78}
+\contentsline {subsubsection}{\textbf {File Reading}}{78}
+\contentsline {subsection}{\numberline {3.2.4}Experimental Evaluation}{79}
+\contentsline {subsubsection}{\textbf {1. Generate File}}{80}
+\contentsline {subsubsection}{\textbf {2. Write File}}{80}
+\contentsline {subsubsection}{\textbf {3. Record System Utilization}}{81}
+\contentsline {subsubsection}{\textbf {4. Record Recovery Time Periods per Byte}}{81}
+\contentsline {subsubsection}{\textbf {5. Record File Lifetime Information Progression}}{82}
+\contentsline {subsubsection}{\textbf {Experimental Results}}{82}
+\contentsline {section}{\numberline {3.3}Tag Storage Lifetime and Tag Granularity}{85}
+\contentsline {section}{\numberline {3.4}Continuous Pervasivity}{86}
+\contentsline {subsection}{\numberline {3.4.1}Quality of Storage Services}{87}
+\contentsline {subsection}{\numberline {3.4.2}Distributedness}{87}
+\contentsline {section}{\numberline {3.5}Concluding Remarks}{89}
+\contentsline {section}{\numberline {3.6}Figures and Tables}{89}
+\contentsline {chapter}{CHAPTER\ 4\hskip 1em\relax \MakeUppercase {DISTRIBUTED PASSIVE RFID COMPUTING}}{109}
+\contentsline {section}{\numberline {4.1}Local Computations}{109}
+\contentsline {section}{\numberline {4.2}System Model}{111}
+\contentsline {section}{\numberline {4.3}Simulations}{113}
+\contentsline {subsection}{\numberline {4.3.1}Interrogator Dynamics}{113}
+\contentsline {subsection}{\numberline {4.3.2}System Performance}{115}
+\contentsline {subsubsection}{\textbf {System Connectivity}}{115}
+\contentsline {subsubsection}{\textbf {Connected Links System Metrics}}{117}
+\contentsline {subsection}{\numberline {4.3.3}Single Interrogator Performance}{120}
+\contentsline {subsubsection}{\textbf {Single Interrogator Connectivity}}{120}
+\contentsline {subsubsection}{\textbf {Connected Links Single Interrogator Metrics}}{121}
+\contentsline {subsection}{\numberline {4.3.4}Time Utilization}{121}
+\contentsline {section}{\numberline {4.4}Continuous Pervasivity}{123}
+\contentsline {section}{\numberline {4.5}Concluding Remarks}{125}
+\contentsline {section}{\numberline {4.6}Figures and Table}{125}
+\contentsline {chapter}{CHAPTER\ 5\hskip 1em\relax \MakeUppercase {CONCLUSION}}{144}
+\contentsline {section}{\numberline {5.1}Summary of Work}{144}
+\contentsline {section}{\numberline {5.2}Continuous Pervasivity}{145}
+\contentsline {subsection}{\numberline {5.2.1}Service Richness and Elasticity}{145}
+\contentsline {subsection}{\numberline {5.2.2}Minimum User Distraction}{146}
+\contentsline {subsection}{\numberline {5.2.3}System Distributedness and Scalability}{148}
+\contentsline {subsection}{\numberline {5.2.4}Energy-Efficiency and Cost-Efficiency}{148}
+\contentsline {section}{\numberline {5.3}Final Remarks}{149}
+\contentsline {chapter}{\MakeUppercase {REFERENCES}}{150}
